@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo library</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<section class="header">
+  <nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-xmark" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="food.html">FOOD & DRINK</a></li>
+        <li><a href="nature.html">NATURE</a></li>
+        <li><a href="architecture.html">ARCHITECTURE</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+<div class="text-box">
+  <h1>Worlds Biggest  Photo Library</h1>
+  <p>Get free photos in high quality</p>
+  <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<section class="course">
+  <h1>Millions of Free Pictures</h1>
+  <p>We offer millions of different free images for your use anywhere with no ristrictions</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>ARCHITECTURE</h3>
+      <p>With one click anyone can download and use photos from this library for FREE. There are thousands of photographers that upload their pictures for everyone to use so we're sure that they will appreciate it if you donate to them</p>
+    </div>
+    <div class="course-col">
+      <h3>FOOD & DRINK</h3>
+      <p>With one click anyone can download and use photos from this library for FREE. There are thousands of photographers that upload their pictures for everyone to use so we're sure that they will appreciate it if you donate to them</p>
+    </div>
+    <div class="course-col">
+      <h3>NATURE</h3>
+      <p>With one click anyone can download and use photos from this library for FREE. There are thousands of photographers that upload their pictures for everyone to use so we're sure that they will appreciate it if you donate to them</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="images">
+  <h1>Images By Topic</h1>
+  <p>Our 3 most popular image topics are nature, food & drink and architecture</p>
+  <div class="row">
+    <div class="images-col">
+      <img src="images/architecture.jpg">
+      <div class="layer">
+        <h3>ARCHITECTURE</h3>
+      </div>
+    </div>
+    <div class="images-col">
+      <img src="images/food.jpg">
+      <div class="layer">
+        <h3>FOOD & DRINK</h3>
+      </div>
+    </div>
+    <div class="images-col">
+      <img src="images/nature.jpg">
+      <div class="layer">
+        <h3>NATURE</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="facilities">
+  <h1>Why Us</h1>
+  <p>Why should you chose us?</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="Images/Image1.jpg">
+      <h3>High Quality Images</h3>
+      <p>We offer very high quality and premium images for use on anything you could fathom</p>
+    </div>
+    <div class="facilities-col">
+      <img src="Images/image2.jpg">
+      <h3>Millions of Pictures</h3>
+      <p>We have millions of pictures arranged by various topics so there will always be something for you</p>
+    </div>
+    <div class="facilities-col">
+      <img src="Images/image3.jpg">
+      <h3>Run By The Comunity</h3>
+      <p>All of our pictures are uploaded and used by the comunity meaning that there is always something for you</p>
+    </div>    
+  </div>
+
+</section>
+
+<section class="cta">
+  <h1>Brouse Millions of Images From<br>Anywhere In The World</h1>
+  <a href="" class="hero-btn">START NOW</a>
+</section>
+
+
+<section class="footer">
+  <h4>About US</h4>
+  <P>I am a beast at making websites!!!!</P>
+  <div>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+  <P>Made By Petar Filipovic</P>
+</section>
+
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+      navLinks.style.right = "0"
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>
